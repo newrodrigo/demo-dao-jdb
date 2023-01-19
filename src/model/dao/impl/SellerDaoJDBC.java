@@ -105,7 +105,6 @@ public class SellerDaoJDBC implements SellerDao{
 		finally {
 			DB.closeStatement(st);
 		}
-		
 	}
 
 	@Override
@@ -235,5 +234,4 @@ public class SellerDaoJDBC implements SellerDao{
 			DB.closeResultSet(rs);
 		}
 	}
-
 }
